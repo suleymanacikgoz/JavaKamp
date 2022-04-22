@@ -1,0 +1,17 @@
+package donduncuGunBirinciOdev;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BaseCustomerManager customerManager = new NeroCustomerManager();
+		Customer customer1 = new Customer();
+		customer1.DateOfBirth=123;
+		customer1.FirstName="Süleyman";
+		customer1.Id=1;
+		customer1.LastName="Açýkgöz";
+		customer1.NationalityId="sadasd";
+		customerManager.Save(customer1);
+		
+	}
+
+}

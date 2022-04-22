@@ -1,0 +1,11 @@
+package donduncuGunBirinciOdev;
+
+public class CustomerManager implements ICustomerService {
+
+	@Override
+	public void Save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package donduncuGunBirinciOdev;
+
+public class StarbucksCustomerManager extends BaseCustomerManager {
+
+	CustomerCheckManager customerCheckManager;
+
+	public StarbucksCustomerManager(CustomerCheckManager customerCheckManager) {
+		super();
+		this.customerCheckManager = customerCheckManager;
+	}
+	
+	@Override
+	public  void Save(Customer customer) {
+		if(this.customerCheckManager.CheckIfRealPerson(customer)) {	
+			Save(customer);
+		}		
+		else {
+			System.out.println("Not a valid person");;
+		}
+	}
+}

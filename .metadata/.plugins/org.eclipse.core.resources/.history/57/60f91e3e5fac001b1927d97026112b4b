@@ -1,0 +1,8 @@
+package donduncuGunBirinciOdev;
+
+public class SturbuckCustomerManager extends BaseCustomerManager  {
+
+	Customer
+	
+
+}

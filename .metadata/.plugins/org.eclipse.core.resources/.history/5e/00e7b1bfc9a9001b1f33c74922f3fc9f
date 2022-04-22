@@ -1,0 +1,10 @@
+package ucuncuGunOdev;
+
+public class Instructor extends User {
+
+	public Instructor(String name, String eMail, String password) {
+		super(name, eMail, password);
+		// TODO Auto-generated constructor stub
+	}
+
+}

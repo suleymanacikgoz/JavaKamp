@@ -1,0 +1,9 @@
+package ucuncuGunOdev;
+
+public class InstructorManager {
+	private void ddd(Instructor instructor) {
+		
+		System.out.println("Tebrikler" + instructor.getName() + "kurs eklendi.");
+	}
+
+}

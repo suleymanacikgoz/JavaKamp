@@ -1,0 +1,9 @@
+package ucuncuGunOdev;
+
+public class StudentManager {
+	public void kayit(Student student) {
+		
+		System.out.println("Tebrikler "+ student.getName() + " kursa kaydýn baþarýyla gerçekleþti.");
+	}
+
+}

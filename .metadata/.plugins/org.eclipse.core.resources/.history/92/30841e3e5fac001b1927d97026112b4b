@@ -1,0 +1,11 @@
+package donduncuGunBirinciOdev;
+
+public class SturbuckCustomerManager extends BaseCustomerManager  {
+
+	
+	public  void Save(Customer customer) {
+		System.out.println("Save to db :" + customer.FirstName);
+	}
+	
+
+}

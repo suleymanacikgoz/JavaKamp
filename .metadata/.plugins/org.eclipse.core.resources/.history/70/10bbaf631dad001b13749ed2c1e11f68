@@ -1,0 +1,18 @@
+package donduncuGunBirinciOdev;
+
+import java.time.LocalDate;
+
+public class Customer implements ICustomerService {
+	int Id;
+	String FirstName;
+	String LastName;
+	LocalDate dateOfBirth;
+	String NationalityId;
+	
+	
+	@Override
+	public void Save(Customer customer) {
+		
+	}
+
+}

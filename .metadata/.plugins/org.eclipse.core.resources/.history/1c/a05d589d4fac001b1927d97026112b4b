@@ -1,0 +1,10 @@
+package donduncuGunBirinciOdev;
+
+public class Customer implements ICustomerService {
+	int Id;
+	String FirstName;
+	String LastName;
+	int DateOfBirth;
+	String NationalityId;
+
+}

@@ -1,0 +1,11 @@
+package ucuncuGunOdev;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student student1 = new Student("Süleyman", "Açýkgöz", "123456789", "123456");
+		
+		System.out.println(student1.getName());
+	}
+
+}
